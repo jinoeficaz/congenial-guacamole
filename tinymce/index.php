@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Hello, world!</title>
-    <script src="https://cdn.tiny.cloud/1/025xofj46i1b9zewxh4sch9vk9advj0rsqyexmicbvba3r19/tinymce/5/tinymce.min.js"></script>
+    <script src="js/tinymce/tinymce.min.js"></script>
     <script>
       tinymce.init({
         selector: '#mytextarea',
