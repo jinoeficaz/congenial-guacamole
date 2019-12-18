@@ -12,10 +12,10 @@
       tinymce.init({
         selector: '#mytextarea',
         height: 400,
-        menubar: "format",
+        menubar: false,
         branding: false,
         plugins: "image code media imagetools",
-        toolbar: 'undo redo | image media | styleselect | bold italic | alignleft alignright alignjustify| outdent indent | code',
+        toolbar: 'styleselect | bold italic | fontselect fontsizeselect | forecolor backcolor | alignleft alignright alignjustify| outdent indent | image media | strikethrough blockquote subscript superscript | code',
         media_live_embeds: true,
         images_upload_url: 'postAcceptor.php',
       });
