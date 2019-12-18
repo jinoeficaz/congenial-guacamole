@@ -12,22 +12,26 @@
       tinymce.init({
         selector: '#mytextarea',
         height: 400,
-		menubar: "format",
-		branding: false
+        menubar: "format",
+        branding: false,
+        plugins: "image code media imagetools",
+        toolbar: 'undo redo | image media | styleselect | bold italic | alignleft alignright alignjustify| outdent indent | code',
+        media_live_embeds: true,
+        images_upload_url: 'postAcceptor.php',
       });
     </script>
   </head>
   <body>
     <div class="container">
-    	<div class="row">
-    		<div class="col-sm-12">	
-		    	<h1>Test Test</h1>
-				<form method="post">
-			      <textarea id="mytextarea">Hello, World!</textarea>
-			    </form>
-			</div>
-		</div>
-	</div>
+      <div class="row">
+        <div class="col-sm-12"> 
+          <h1>Test Test</h1>
+        <form method="post">
+            <textarea id="mytextarea">Hello, World!</textarea>
+          </form>
+      </div>
+    </div>
+  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
